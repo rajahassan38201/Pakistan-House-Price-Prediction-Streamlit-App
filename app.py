@@ -40,7 +40,7 @@ st.markdown(
 
 st.markdown(
     """
-    <a href="localhost:7067" target="_blank">Back To Home Page</a>
+    <a href="https://localhost:7067" target="_blank">Back To Home Page</a>
     """,
     unsafe_allow_html=True,
 )
