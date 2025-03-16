@@ -13,6 +13,28 @@ with open("encoders.pkl", "rb") as f:
 with open("scalers.pkl", "rb") as f:
     scalers = pickle.load(f)
 
+
+# Streamlit App
+st.set_page_config(
+    page_title="House Price Prediction App",
+    layout="wide"  # Use wide layout to utilize full screen
+)
+
+# Remove header and footer
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        margin-top: -80px;
+    }
+   [data-testid="stHeader"], [data-testid="stToolbar"] {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 # Streamlit App
 st.title("PAKISTAN | House Price Prediction")
 
