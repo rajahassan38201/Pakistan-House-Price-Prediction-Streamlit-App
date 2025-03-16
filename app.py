@@ -38,6 +38,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+st.markdown(
+    """
+    <a href="localhost:7067" target="_blank">Go to PAK Properties Website Home Page</a>
+    """,
+    unsafe_allow_html=True,
+)
 # Streamlit App
 st.title("PAKISTAN | House Price Prediction")
 
