@@ -48,7 +48,7 @@ st.markdown("""
 
 st.markdown(
     """
-    <a href="https://pakproperties.azurewebsites.net/" target="_blank" >Back To Home Page</a>
+    <a href="https://pakproperties20250521145834-fze9fuebhga8f0h7.canadacentral-01.azurewebsites.net/" target="_blank" >Back To Home Page</a>
     """,
     unsafe_allow_html=True,
 )
